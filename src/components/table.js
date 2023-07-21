@@ -147,6 +147,7 @@ export default function CarTable() {
     <div className={search} style={{ height: 400, width: '100%' }}>
       <TextField
         sx={{
+          paddingBottom:"20px",
           label: { color: "white", top: "5px" },
           input: { color: "white" }
         }}
