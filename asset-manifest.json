@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/chi-project/static/css/main.d5447d22.css",
-    "main.js": "/chi-project/static/js/main.416974f7.js",
+    "main.js": "/chi-project/static/js/main.e050baca.js",
     "static/js/787.000af22e.chunk.js": "/chi-project/static/js/787.000af22e.chunk.js",
     "index.html": "/chi-project/index.html",
     "main.d5447d22.css.map": "/chi-project/static/css/main.d5447d22.css.map",
-    "main.416974f7.js.map": "/chi-project/static/js/main.416974f7.js.map",
+    "main.e050baca.js.map": "/chi-project/static/js/main.e050baca.js.map",
     "787.000af22e.chunk.js.map": "/chi-project/static/js/787.000af22e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5447d22.css",
-    "static/js/main.416974f7.js"
+    "static/js/main.e050baca.js"
   ]
 }
