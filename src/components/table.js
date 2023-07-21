@@ -5,6 +5,7 @@ import localCars from './cars.json'
 import { ModalDelete, ModalForm } from './Modals'
 import TextField from '@mui/material/TextField';
 import { Button } from '@mui/material';
+import'./../App.css';
 const baseUrl = "https://myfakeapi.com/api/cars/";
 
 
@@ -144,10 +145,11 @@ export default function CarTable() {
     )
 
   return (
-    <div className={search} style={{ height: 400, width: '100%' }}>
-      <TextField
+    <div style={{ height: 400, width: '100%' }}>
+      <div className="searchWrapper">
+        <TextField
         sx={{
-          paddingBottom:"20px",
+          // paddingBottom:"20px",
           label: { color: "white", top: "5px" },
           input: { color: "white" }
         }}
@@ -169,7 +171,7 @@ export default function CarTable() {
         onClick={handleCreateNewRow}>
         Add
       </Button>
-
+      </div>
       <DataGrid
         sx={{ color: "white", rows: { color: "white" } }}
         hideFooterSelectedRowCount

@@ -12,6 +12,9 @@
     background-color:#555;
     
   }
+  .searchWrapper{
+    padding-bottom: 30px;
+  }
 h1,h3{
   padding: 10px;
   text-align: center;
